@@ -1,0 +1,10 @@
+@startuml
+!include C4_DataModel.puml
+
+!$txt = "I guess somewhere in the code there is a collection of classes and their names. The AAA command seems to add to that collection without removing the quotes first, but when checking if a class is already in the collection the quotes are omitted first."
+!$txt2 = "Очень, очень, очень длинное текстовое описание класса, из-за которого класс не влезает на экран"
+
+Class(activity, "Activity", $txt2)
+
+
+@enduml
